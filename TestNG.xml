@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="TestNG">
+    <test name="TestNG" preserve-order="true">
+        <classes>
+           <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.AssignContentManagementCardTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.AssignmentSettingsTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.ContentTocTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.CourseCreationActivationTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.GradebookTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.LearningCurveTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.QuestionEditorPickerTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.QuestionPlayerTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.ResourcesPageTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.ResultsSuiteTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.RosterAndGroupTest"></class> 
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.SearchSuiteTest"></class>
+            <class name="com.qait.automation.MacmillanLaunchpad.TestSuites.WelcomePageTest"></class>
+        </classes>
+    </test>
+</suite>
+

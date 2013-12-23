@@ -1,0 +1,91 @@
+testserver: local
+selenium_remote_server: http://localhost:3012/wd
+browser: firefox
+url: http://www.macmillan.com/
+pageTitle: Index
+waitForElementInMilliSeconds: 100000
+portal:
+    environment: http://dev.worthpublishers.com/launchpad/
+    course: myers10e
+    courseGroup1: TestCourseAutomation_Group1
+    courseGroup2: TestCourseAutomation_Group2
+    courseGroup3: TestCourseAutomation_Group3
+    courseGroup4: TestCourseAutomation_Group4
+    courseGroup5: TestCourseAutomation_Group5
+    baseCourse: Automation Baseline Course DoNotDelete
+    courseName: TestAutomationCourseCreation
+    
+users:
+  instructor:
+    type: instructor
+    user_name: instructor3@bfwpub.com
+    user_name_ff: karen.gregor.instructor@macmillan.com
+    user_name_c: andre.pianeta.instructor@macmillan.com
+    user_name_ie: andre.pianeta.instructor@macmillan.com
+    user_name_safari: karen.gregor.instructor@macmillan.com
+    password: Password1
+    pageHeading: My Courses
+    courseName: Test Course_DDMMM_HHMM
+    newCourseTitle: Course Title Changed
+    SchoolName: BFWUsers
+    TimeZoneOneAssignment: Pacific Standard Time
+    TimeZoneTwoAssignment: India Standard Time
+    TimeZoneThreeAssignment: Eastern Standard Time
+    DefaultTime: 03:00 PM
+    ChangedTime: 03:30 AM
+    TimeZoneOneVerify: PST
+    TimeZoneTwoVerify: IST
+    TimeZoneThreeVerify: EST5EDT
+    FnEDefaultTimeVerifyPST: 03:00 PM PST
+    FnEDefaultTimeVerifyIST: 03:30 AM IST
+    resources:
+      contentByName: figures
+      copyContent: QAcopy
+      
+    ebook:
+      clickChapterCrossRef: 3  
+      crossRefSection: 7
+      clickChapterInteractiveElem: 7
+    editPageSettings:
+      pageTitle: New Course
+      courseNumber: "123"
+      sectionNumber: "54"
+      instructorName: QAIT
+      officeHours: 9-10 am Mon to Fri, 3-3:30 pm Wednesday
+      days: "11"
+      Category: New Category
+      changeUnitTitle: UnitTitleChanged
+      changedContentTitle: ContentTitleChanged
+    Quiz:
+      quizName: TestQuiz_DDMMM_HHMM
+      otherQuiz: Qait
+      points: "40"
+      dueDate: "12"
+      categoryName: New Category_DDMMM_HHMM
+    document:
+      documentCollection: AddDocumentCollection
+      newDocument: New Document
+      resourceSearch: time
+    homePage:
+      homePageTitle: Macmillan Home
+      hideOptionYes: Yes
+      hideOptionNo: No
+    link:
+      linkCollection: AddLinkCollection
+    Dropbox:
+      dropboxName: TestDropBox_DDMMM_HHMM
+    Homework:
+      homeworkName: TestHomeWork_DDMMM_HHMM
+  student:
+    user_name: surbhi.pandey.student@macmillan.com
+    user_name2: surbhi.pandey.student@macmillan.com
+    user_name3: andre.pianeta.student@macmillan.com
+    password: password1
+    contentVisible: Shown
+    contentInvisible: Hidden
+    timeOutMessage: You can no longer submit this assignment.
+
+results:
+  sendEmail: "yes"
+  recipients: 
+    recipient1: hiteshsharma@qainfotech.net
